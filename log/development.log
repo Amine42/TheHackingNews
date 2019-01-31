@@ -2515,3 +2515,931 @@ Migrating to CreateCommentComments (20190131021215)
   ↳ db/seeds.rb:16
   [1m[35m (97.7ms)[0m  [1m[36mcommit transaction[0m
   ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Theo Robel V"], ["last_name", "Wintheiser"], ["email", "yangreynolds@cole.co"], ["created_at", "2019-01-31 02:38:14.051894"], ["updated_at", "2019-01-31 02:38:14.051894"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (192.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ross Frami"], ["last_name", "Kilback"], ["email", "adelaidegorczany@emmerich.name"], ["created_at", "2019-01-31 02:38:14.247265"], ["updated_at", "2019-01-31 02:38:14.247265"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (69.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Roman Legros"], ["last_name", "Kutch"], ["email", "stacy@zulauf.name"], ["created_at", "2019-01-31 02:38:14.319132"], ["updated_at", "2019-01-31 02:38:14.319132"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (147.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nakita Williamson"], ["last_name", "Dooley"], ["email", "awilda@powlowski.net"], ["created_at", "2019-01-31 02:38:14.468766"], ["updated_at", "2019-01-31 02:38:14.468766"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (88.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ms. Lorene Kassulke"], ["last_name", "Reichel"], ["email", "fechamplin@pacocha.io"], ["created_at", "2019-01-31 02:38:14.559604"], ["updated_at", "2019-01-31 02:38:14.559604"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (165.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Miss Shaun Zulauf"], ["last_name", "Bartell"], ["email", "mariann@kreiger.org"], ["created_at", "2019-01-31 02:38:14.728464"], ["updated_at", "2019-01-31 02:38:14.728464"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (86.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (4.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elden Block"], ["last_name", "VonRueden"], ["email", "shantae@upton.com"], ["created_at", "2019-01-31 02:38:14.819468"], ["updated_at", "2019-01-31 02:38:14.819468"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (142.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (2.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mr. Geoffrey Osinski"], ["last_name", "Schoen"], ["email", "francescomaggio@cole.biz"], ["created_at", "2019-01-31 02:38:14.972087"], ["updated_at", "2019-01-31 02:38:14.972087"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (65.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Babette Heidenreich"], ["last_name", "Paucek"], ["email", "tamatha@wehner.co"], ["created_at", "2019-01-31 02:38:15.046395"], ["updated_at", "2019-01-31 02:38:15.046395"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (145.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Octavio Treutel"], ["last_name", "Wyman"], ["email", "imeldadach@zboncakmayert.com"], ["created_at", "2019-01-31 02:38:15.196895"], ["updated_at", "2019-01-31 02:38:15.196895"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (84.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Internal Technology Director"], ["url", "http://zboncak.com/antoine"], ["created_at", "2019-01-31 02:38:15.304118"], ["updated_at", "2019-01-31 02:38:15.304118"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (224.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["title", "Dynamic Sales Designer"], ["url", "http://howellberge.name/abdul"], ["created_at", "2019-01-31 02:38:15.533779"], ["updated_at", "2019-01-31 02:38:15.533779"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (186.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["title", "Forward Consultant"], ["url", "http://dooley.co/cecila"], ["created_at", "2019-01-31 02:38:15.726761"], ["updated_at", "2019-01-31 02:38:15.726761"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (194.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (1.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "International Accounting Technician"], ["url", "http://ruecker.org/tommy"], ["created_at", "2019-01-31 02:38:15.926488"], ["updated_at", "2019-01-31 02:38:15.926488"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (183.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Banking Technician"], ["url", "http://keler.co/cameron_jerde"], ["created_at", "2019-01-31 02:38:16.114909"], ["updated_at", "2019-01-31 02:38:16.114909"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (203.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["title", "Legacy Administration Strategist"], ["url", "http://skiles.net/sheldon.hahn"], ["created_at", "2019-01-31 02:38:16.322601"], ["updated_at", "2019-01-31 02:38:16.322601"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (215.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (30.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Internal Banking Administrator"], ["url", "http://mohr.io/diego"], ["created_at", "2019-01-31 02:38:16.573589"], ["updated_at", "2019-01-31 02:38:16.573589"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (326.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Investor Design Architect"], ["url", "http://gleichner.biz/rufus.ledner"], ["created_at", "2019-01-31 02:38:16.907202"], ["updated_at", "2019-01-31 02:38:16.907202"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (217.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["title", "Central Hospitality Coordinator"], ["url", "http://leannon.info/trena.conroy"], ["created_at", "2019-01-31 02:38:17.130547"], ["updated_at", "2019-01-31 02:38:17.130547"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (211.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 2], ["title", "Human Producer"], ["url", "http://gorczany.info/rosana_shanahan"], ["created_at", "2019-01-31 02:38:17.346138"], ["updated_at", "2019-01-31 02:38:17.346138"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (210.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["message_id", 2], ["message", "Sed asperiores incidunt. Minus et ex. Ipsum itaque adipisci."], ["created_at", "2019-01-31 02:38:17.564721"], ["updated_at", "2019-01-31 02:38:17.564721"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (93.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (1.1ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 9], ["message", "Culpa aut et. Laborum eveniet culpa. Explicabo in velit."], ["created_at", "2019-01-31 02:38:17.662405"], ["updated_at", "2019-01-31 02:38:17.662405"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (138.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 8], ["message", "Pariatur exercitationem dolorem. Id ipsa recusandae. Deserunt suscipit dolorum."], ["created_at", "2019-01-31 02:38:17.804846"], ["updated_at", "2019-01-31 02:38:17.804846"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (121.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["message_id", 9], ["message", "Veniam est rem. Consequatur iste accusamus. Iusto porro et."], ["created_at", "2019-01-31 02:38:17.928022"], ["updated_at", "2019-01-31 02:38:17.928022"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (178.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["message_id", 7], ["message", "Iusto dolorum quis. Eveniet culpa deleniti. Tempore est ex."], ["created_at", "2019-01-31 02:38:18.109325"], ["updated_at", "2019-01-31 02:38:18.109325"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (220.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 3], ["message", "Officia saepe velit. Est dolorum ad. Velit voluptatibus corporis."], ["created_at", "2019-01-31 02:38:18.335508"], ["updated_at", "2019-01-31 02:38:18.335508"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (114.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["message_id", 5], ["message", "Rerum inventore rerum. Voluptatem velit nemo. Nemo accusantium dolorem."], ["created_at", "2019-01-31 02:38:18.453135"], ["updated_at", "2019-01-31 02:38:18.453135"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (157.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.7ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["message_id", 6], ["message", "Quo id culpa. Deleniti iusto qui. Est eos nihil."], ["created_at", "2019-01-31 02:38:18.615475"], ["updated_at", "2019-01-31 02:38:18.615475"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (144.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.6ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 9], ["message", "In et molestiae. Velit illo voluptatem. Accusamus sed voluptatem."], ["created_at", "2019-01-31 02:38:18.764373"], ["updated_at", "2019-01-31 02:38:18.764373"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (99.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["message_id", 9], ["message", "Ea quo consequatur. Qui in et. Error sequi adipisci."], ["created_at", "2019-01-31 02:38:18.868969"], ["updated_at", "2019-01-31 02:38:18.868969"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (176.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.6ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["comments_id", 2], ["message", "Accusantium rerum molestiae. Sit molestiae quaerat. Eius accusantium non."], ["created_at", "2019-01-31 02:38:19.067182"], ["updated_at", "2019-01-31 02:38:19.067182"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (140.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["comments_id", 7], ["message", "Ratione amet non. Qui nihil eos. Earum distinctio ut."], ["created_at", "2019-01-31 02:38:19.212943"], ["updated_at", "2019-01-31 02:38:19.212943"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (103.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["comments_id", 7], ["message", "Inventore veniam quibusdam. Incidunt exercitationem ipsum. Numquam facilis dolorum."], ["created_at", "2019-01-31 02:38:19.320050"], ["updated_at", "2019-01-31 02:38:19.320050"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (175.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["comments_id", 7], ["message", "Dolor quo laborum. Ea laborum repellendus. Iusto provident minima."], ["created_at", "2019-01-31 02:38:19.497520"], ["updated_at", "2019-01-31 02:38:19.497520"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (121.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["comments_id", 1], ["message", "Alias quis consequatur. Molestias eos vel. Possimus voluptatem nostrum."], ["created_at", "2019-01-31 02:38:19.620905"], ["updated_at", "2019-01-31 02:38:19.620905"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (167.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["comments_id", 8], ["message", "Amet aut et. Recusandae magnam est. Fugiat facilis facere."], ["created_at", "2019-01-31 02:38:19.790893"], ["updated_at", "2019-01-31 02:38:19.790893"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (111.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["comments_id", 3], ["message", "Enim odit temporibus. Eos repudiandae aut. Aut officia tempora."], ["created_at", "2019-01-31 02:38:19.904224"], ["updated_at", "2019-01-31 02:38:19.904224"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (172.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["comments_id", 7], ["message", "Repudiandae omnis dolor. Voluptatum sapiente ut. Qui temporibus sequi."], ["created_at", "2019-01-31 02:38:20.080236"], ["updated_at", "2019-01-31 02:38:20.080236"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (120.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["comments_id", 9], ["message", "Laboriosam in id. Et deleniti voluptatem. Aut temporibus et."], ["created_at", "2019-01-31 02:38:20.203834"], ["updated_at", "2019-01-31 02:38:20.203834"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (165.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["comments_id", 7], ["message", "Qui officiis et. Architecto sed quae. Non est explicabo."], ["created_at", "2019-01-31 02:38:20.373126"], ["updated_at", "2019-01-31 02:38:20.373126"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (177.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Judi Maggio"], ["last_name", "Langworth"], ["email", "marylouhartmann@oberbrunner.net"], ["created_at", "2019-01-31 04:17:38.346517"], ["updated_at", "2019-01-31 04:17:38.346517"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (128.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jami O'Reilly"], ["last_name", "Haley"], ["email", "bud@wunsch.co"], ["created_at", "2019-01-31 04:17:38.478093"], ["updated_at", "2019-01-31 04:17:38.478093"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (88.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Teodoro Mayer"], ["last_name", "Balistreri"], ["email", "tannerbeier@lockmanbailey.org"], ["created_at", "2019-01-31 04:17:38.569779"], ["updated_at", "2019-01-31 04:17:38.569779"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (88.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Haywood Wuckert"], ["last_name", "Klocko"], ["email", "careygoodwin@kilback.com"], ["created_at", "2019-01-31 04:17:38.660690"], ["updated_at", "2019-01-31 04:17:38.660690"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (80.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mr. Seth Jast"], ["last_name", "Cole"], ["email", "tony@marvinbrown.com"], ["created_at", "2019-01-31 04:17:38.744798"], ["updated_at", "2019-01-31 04:17:38.744798"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (88.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dr. Marlene Rowe"], ["last_name", "Hills"], ["email", "amandajakubowski@schinner.name"], ["created_at", "2019-01-31 04:17:38.835560"], ["updated_at", "2019-01-31 04:17:38.835560"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (89.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Frederic Monahan"], ["last_name", "Daugherty"], ["email", "sidschroeder@pfeffer.biz"], ["created_at", "2019-01-31 04:17:38.929340"], ["updated_at", "2019-01-31 04:17:38.929340"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (84.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jody Rutherford IV"], ["last_name", "Bernier"], ["email", "wally@breitenbergzemlak.co"], ["created_at", "2019-01-31 04:17:39.019930"], ["updated_at", "2019-01-31 04:17:39.019930"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (80.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sherryl Aufderhar"], ["last_name", "Hansen"], ["email", "chasjacobi@schiller.com"], ["created_at", "2019-01-31 04:17:39.103582"], ["updated_at", "2019-01-31 04:17:39.103582"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (54.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mr. Tom Lind"], ["last_name", "Murazik"], ["email", "dionnathiel@upton.io"], ["created_at", "2019-01-31 04:17:39.161238"], ["updated_at", "2019-01-31 04:17:39.161238"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (89.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Forward IT Representative"], ["url", "http://kautzer.io/raul"], ["created_at", "2019-01-31 04:17:39.270250"], ["updated_at", "2019-01-31 04:17:39.270250"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (88.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Legacy Planner"], ["url", "http://reichertwalter.name/marna"], ["created_at", "2019-01-31 04:17:39.365346"], ["updated_at", "2019-01-31 04:17:39.365346"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (91.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Corporate Marketing Manager"], ["url", "http://thiel.info/marvin"], ["created_at", "2019-01-31 04:17:39.465647"], ["updated_at", "2019-01-31 04:17:39.465647"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Investor Coordinator"], ["url", "http://keler.net/lucie"], ["created_at", "2019-01-31 04:17:39.546969"], ["updated_at", "2019-01-31 04:17:39.546969"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (85.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Real-Estate Strategist"], ["url", "http://gleichner.com/arron"], ["created_at", "2019-01-31 04:17:39.638882"], ["updated_at", "2019-01-31 04:17:39.638882"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (93.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["title", "Community-Services Engineer"], ["url", "http://stammjohnston.name/judson_abshire"], ["created_at", "2019-01-31 04:17:39.739640"], ["updated_at", "2019-01-31 04:17:39.739640"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (93.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Marketing Engineer"], ["url", "http://hermiston.co/coletta"], ["created_at", "2019-01-31 04:17:39.840063"], ["updated_at", "2019-01-31 04:17:39.840063"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (92.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Product Coordinator"], ["url", "http://mosciski.io/rupert_king"], ["created_at", "2019-01-31 04:17:39.939724"], ["updated_at", "2019-01-31 04:17:39.939724"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (92.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Sales Executive"], ["url", "http://macgyver.co/james_fisher"], ["created_at", "2019-01-31 04:17:40.040675"], ["updated_at", "2019-01-31 04:17:40.040675"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["title", "Internal Construction Technician"], ["url", "http://koepphowe.info/patricia_ferry"], ["created_at", "2019-01-31 04:17:40.123427"], ["updated_at", "2019-01-31 04:17:40.123427"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (109.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ferne Haag"], ["last_name", "Skiles"], ["email", "florentino@davisblock.io"], ["created_at", "2019-01-31 04:18:22.020245"], ["updated_at", "2019-01-31 04:18:22.020245"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (71.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ruben Dooley DVM"], ["last_name", "Emard"], ["email", "elenor@kihnprosacco.co"], ["created_at", "2019-01-31 04:18:22.095610"], ["updated_at", "2019-01-31 04:18:22.095610"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (62.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Serita Cremin"], ["last_name", "Jacobson"], ["email", "eliaskilback@osinskiheel.co"], ["created_at", "2019-01-31 04:18:22.162105"], ["updated_at", "2019-01-31 04:18:22.162105"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (87.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Assunta Roberts"], ["last_name", "D'Amore"], ["email", "jeboyer@leannoncollins.biz"], ["created_at", "2019-01-31 04:18:22.254088"], ["updated_at", "2019-01-31 04:18:22.254088"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (87.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Miss Raymundo Jast"], ["last_name", "Schiller"], ["email", "sadiegreen@wilderman.name"], ["created_at", "2019-01-31 04:18:22.345563"], ["updated_at", "2019-01-31 04:18:22.345563"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (87.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Odelia Waelchi"], ["last_name", "Swaniawski"], ["email", "jaegreenfelder@daughertybradtke.com"], ["created_at", "2019-01-31 04:18:22.437551"], ["updated_at", "2019-01-31 04:18:22.437551"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (103.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lisette Reichel"], ["last_name", "Armstrong"], ["email", "lore@steuber.biz"], ["created_at", "2019-01-31 04:18:22.545822"], ["updated_at", "2019-01-31 04:18:22.545822"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (87.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Joel Gottlieb"], ["last_name", "Koelpin"], ["email", "rollanddonnelly@flatleyaufderhar.biz"], ["created_at", "2019-01-31 04:18:22.638289"], ["updated_at", "2019-01-31 04:18:22.638289"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (137.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Theo Langosh"], ["last_name", "Lebsack"], ["email", "emmaoconner@beer.biz"], ["created_at", "2019-01-31 04:18:22.784399"], ["updated_at", "2019-01-31 04:18:22.784399"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (125.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mr. Kandi Lueilwitz"], ["last_name", "Schamberger"], ["email", "joseph@yost.info"], ["created_at", "2019-01-31 04:18:22.913760"], ["updated_at", "2019-01-31 04:18:22.913760"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (146.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["title", "Direct Marketing Technician"], ["url", "http://brekke.co/jon.durgan"], ["created_at", "2019-01-31 04:18:23.077707"], ["updated_at", "2019-01-31 04:18:23.077707"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (106.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Administration Officer"], ["url", "http://fahey.org/randolph"], ["created_at", "2019-01-31 04:18:23.189657"], ["updated_at", "2019-01-31 04:18:23.189657"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (68.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (1.1ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["title", "Lead IT Engineer"], ["url", "http://funkcrona.org/chantelle"], ["created_at", "2019-01-31 04:18:23.264490"], ["updated_at", "2019-01-31 04:18:23.264490"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (76.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Internal Designer"], ["url", "http://brakus.com/dewitt"], ["created_at", "2019-01-31 04:18:23.346716"], ["updated_at", "2019-01-31 04:18:23.346716"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (154.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Legacy Construction Assistant"], ["url", "http://bode.org/luz"], ["created_at", "2019-01-31 04:18:23.506019"], ["updated_at", "2019-01-31 04:18:23.506019"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (156.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Dynamic Legal Director"], ["url", "http://shields.info/leanne.stoltenberg"], ["created_at", "2019-01-31 04:18:23.668782"], ["updated_at", "2019-01-31 04:18:23.668782"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (200.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Principal Liaison"], ["url", "http://robelratke.net/porsha_powlowski"], ["created_at", "2019-01-31 04:18:23.873977"], ["updated_at", "2019-01-31 04:18:23.873977"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (127.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Corporate Real-Estate Agent"], ["url", "http://wintheiseranderson.biz/jimmy"], ["created_at", "2019-01-31 04:18:24.007507"], ["updated_at", "2019-01-31 04:18:24.007507"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (151.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Product Mining Director"], ["url", "http://feeneyshields.org/shawna"], ["created_at", "2019-01-31 04:18:24.164047"], ["updated_at", "2019-01-31 04:18:24.164047"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (129.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Customer Construction Administrator"], ["url", "http://grimes.biz/hugh.kreiger"], ["created_at", "2019-01-31 04:18:24.298341"], ["updated_at", "2019-01-31 04:18:24.298341"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (127.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["message_id", 7], ["message", "Odio asperiores voluptatem. Facere ad quas. Qui voluptatibus in."], ["created_at", "2019-01-31 04:18:24.434989"], ["updated_at", "2019-01-31 04:18:24.434989"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (116.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 5], ["message", "Deserunt quaerat eum. Magnam qui vero. Voluptas dolore ducimus."], ["created_at", "2019-01-31 04:18:24.554903"], ["updated_at", "2019-01-31 04:18:24.554903"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (145.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 1], ["message", "Ut alias facere. Architecto rerum sit. Quod officia velit."], ["created_at", "2019-01-31 04:18:24.704034"], ["updated_at", "2019-01-31 04:18:24.704034"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (97.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["message_id", 7], ["message", "Quas nesciunt nisi. Eum aperiam numquam. Sit illo at."], ["created_at", "2019-01-31 04:18:24.804250"], ["updated_at", "2019-01-31 04:18:24.804250"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (96.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["message_id", 5], ["message", "Incidunt et occaecati. Unde qui eum. Molestias iure quis."], ["created_at", "2019-01-31 04:18:24.904057"], ["updated_at", "2019-01-31 04:18:24.904057"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (114.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 6], ["message", "Est ducimus labore. Ducimus commodi nam. Nobis ut quaerat."], ["created_at", "2019-01-31 04:18:25.020881"], ["updated_at", "2019-01-31 04:18:25.020881"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (96.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["message_id", 7], ["message", "Reprehenderit est sed. Aut tempore placeat. Incidunt et quos."], ["created_at", "2019-01-31 04:18:25.121520"], ["updated_at", "2019-01-31 04:18:25.121520"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (70.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 9], ["message", "Provident sunt repudiandae. Dolorem iste assumenda. Deleniti doloremque at."], ["created_at", "2019-01-31 04:18:25.195683"], ["updated_at", "2019-01-31 04:18:25.195683"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (72.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["message_id", 9], ["message", "Aliquid ab eos. Voluptatem voluptates magni. Alias cumque eligendi."], ["created_at", "2019-01-31 04:18:25.270708"], ["updated_at", "2019-01-31 04:18:25.270708"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (71.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["message_id", 6], ["message", "Rem est voluptatem. Magnam voluptatem quo. Reiciendis veniam nulla."], ["created_at", "2019-01-31 04:18:25.346133"], ["updated_at", "2019-01-31 04:18:25.346133"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (70.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["comments_id", 2], ["message", "Autem itaque culpa. Earum odit quis. Ex repudiandae nam."], ["created_at", "2019-01-31 04:18:25.426278"], ["updated_at", "2019-01-31 04:18:25.426278"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (100.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["comments_id", 7], ["message", "Voluptatum corporis et. Aliquid vitae adipisci. Consequatur sunt in."], ["created_at", "2019-01-31 04:18:25.530448"], ["updated_at", "2019-01-31 04:18:25.530448"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (78.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["comments_id", 5], ["message", "Odio non sint. Voluptas quisquam sed. Non eum quis."], ["created_at", "2019-01-31 04:18:25.612931"], ["updated_at", "2019-01-31 04:18:25.612931"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (97.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["comments_id", 5], ["message", "Et qui rerum. Ad non sed. Consectetur odit accusamus."], ["created_at", "2019-01-31 04:18:25.712717"], ["updated_at", "2019-01-31 04:18:25.712717"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (97.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (7.8ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["comments_id", 3], ["message", "Dolor quo maxime. Voluptas quasi deserunt. Voluptatibus iusto in."], ["created_at", "2019-01-31 04:18:25.811674"], ["updated_at", "2019-01-31 04:18:25.811674"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (90.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["comments_id", 2], ["message", "Quidem voluptas repellendus. Earum ipsa sed. Ut pariatur temporibus."], ["created_at", "2019-01-31 04:18:25.913949"], ["updated_at", "2019-01-31 04:18:25.913949"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (70.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["comments_id", 3], ["message", "Consequatur deserunt harum. Dicta deserunt quia. Velit dolorem corporis."], ["created_at", "2019-01-31 04:18:25.988862"], ["updated_at", "2019-01-31 04:18:25.988862"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (70.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["comments_id", 1], ["message", "Magni totam nihil. Quas reprehenderit libero. Omnis perferendis voluptas."], ["created_at", "2019-01-31 04:18:26.063389"], ["updated_at", "2019-01-31 04:18:26.063389"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (71.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["comments_id", 7], ["message", "Vitae cum adipisci. Eum iusto sunt. Sed error recusandae."], ["created_at", "2019-01-31 04:18:26.138926"], ["updated_at", "2019-01-31 04:18:26.138926"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (95.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["comments_id", 9], ["message", "Quos rerum vero. Facilis et architecto. Nihil eligendi distinctio."], ["created_at", "2019-01-31 04:18:26.238774"], ["updated_at", "2019-01-31 04:18:26.238774"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (137.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Travis Kshlerin"], ["last_name", "Ullrich"], ["email", "katharyn@hilllnader.org"], ["created_at", "2019-01-31 04:19:16.601086"], ["updated_at", "2019-01-31 04:19:16.601086"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (136.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elliott Connelly"], ["last_name", "Effertz"], ["email", "germanschimmel@kuhicvonrueden.co"], ["created_at", "2019-01-31 04:19:16.740761"], ["updated_at", "2019-01-31 04:19:16.740761"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (112.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Twanda Torphy"], ["last_name", "Zulauf"], ["email", "lynell@kuhn.io"], ["created_at", "2019-01-31 04:19:16.857454"], ["updated_at", "2019-01-31 04:19:16.857454"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (120.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Numbers Borer PhD"], ["last_name", "Lubowitz"], ["email", "elmer@daugherty.net"], ["created_at", "2019-01-31 04:19:16.984147"], ["updated_at", "2019-01-31 04:19:16.984147"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (119.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marc Walsh"], ["last_name", "Kemmer"], ["email", "eduardo@larsonfranecki.com"], ["created_at", "2019-01-31 04:19:17.108131"], ["updated_at", "2019-01-31 04:19:17.108131"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (120.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ms. Jadwiga McDermott"], ["last_name", "Walker"], ["email", "pasquale@metzhirthe.net"], ["created_at", "2019-01-31 04:19:17.233437"], ["updated_at", "2019-01-31 04:19:17.233437"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (136.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bradley Rutherford"], ["last_name", "Muller"], ["email", "isis@satterfield.name"], ["created_at", "2019-01-31 04:19:17.375181"], ["updated_at", "2019-01-31 04:19:17.375181"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (137.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carmelia Schuster"], ["last_name", "Prosacco"], ["email", "ebony@nitzsche.name"], ["created_at", "2019-01-31 04:19:17.517090"], ["updated_at", "2019-01-31 04:19:17.517090"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (111.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ms. Sanford Pfeffer"], ["last_name", "Dickens"], ["email", "janeangutkowski@macejkovic.com"], ["created_at", "2019-01-31 04:19:17.633473"], ["updated_at", "2019-01-31 04:19:17.633473"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (120.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Erna Leffler"], ["last_name", "Schiller"], ["email", "carlyn@farrell.biz"], ["created_at", "2019-01-31 04:19:17.758503"], ["updated_at", "2019-01-31 04:19:17.758503"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (137.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Principal Advertising Analyst"], ["url", "http://kutch.name/geri"], ["created_at", "2019-01-31 04:19:17.916780"], ["updated_at", "2019-01-31 04:19:17.916780"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (136.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["title", "Sales Architect"], ["url", "http://lebsack.name/emerson"], ["created_at", "2019-01-31 04:19:18.060178"], ["updated_at", "2019-01-31 04:19:18.060178"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (118.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Healthcare Technician"], ["url", "http://littel.io/cleora"], ["created_at", "2019-01-31 04:19:18.184852"], ["updated_at", "2019-01-31 04:19:18.184852"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (135.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["title", "Legacy Mining Technician"], ["url", "http://leffler.org/corrina_zboncak"], ["created_at", "2019-01-31 04:19:18.324982"], ["updated_at", "2019-01-31 04:19:18.324982"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (129.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Retail Planner"], ["url", "http://trantow.net/avery_dare"], ["created_at", "2019-01-31 04:19:18.459775"], ["updated_at", "2019-01-31 04:19:18.459775"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (127.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["title", "Direct IT Assistant"], ["url", "http://king.biz/colby.thompson"], ["created_at", "2019-01-31 04:19:18.591744"], ["updated_at", "2019-01-31 04:19:18.591744"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (137.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["title", "Government Liaison"], ["url", "http://braun.io/warren"], ["created_at", "2019-01-31 04:19:18.734371"], ["updated_at", "2019-01-31 04:19:18.734371"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (110.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["title", "Chief Advertising Strategist"], ["url", "http://hahnlind.net/valorie.smith"], ["created_at", "2019-01-31 04:19:18.851591"], ["updated_at", "2019-01-31 04:19:18.851591"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (135.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["title", "Product Accounting Strategist"], ["url", "http://bashirian.com/babara"], ["created_at", "2019-01-31 04:19:18.993460"], ["updated_at", "2019-01-31 04:19:18.993460"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (135.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("user_id", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["title", "Internal Healthcare Strategist"], ["url", "http://weinatnolan.com/deetta"], ["created_at", "2019-01-31 04:19:19.133409"], ["updated_at", "2019-01-31 04:19:19.133409"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (120.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 5], ["message", "Minus est quis. Voluptatem velit aperiam. Hic ut at."], ["created_at", "2019-01-31 04:19:19.262755"], ["updated_at", "2019-01-31 04:19:19.262755"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (124.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 7], ["message_id", 8], ["message", "Eum sit nihil. Dolor corporis quasi. Quo suscipit magnam."], ["created_at", "2019-01-31 04:19:19.390189"], ["updated_at", "2019-01-31 04:19:19.390189"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (142.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["message_id", 3], ["message", "Rem et et. Ad pariatur rerum. Error praesentium dignissimos."], ["created_at", "2019-01-31 04:19:19.535559"], ["updated_at", "2019-01-31 04:19:19.535559"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (111.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["message_id", 7], ["message", "A autem omnis. Tenetur a quia. Ut qui soluta."], ["created_at", "2019-01-31 04:19:19.649727"], ["updated_at", "2019-01-31 04:19:19.649727"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (129.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["message_id", 2], ["message", "Quidem veritatis est. Aut sit voluptas. Aut pariatur dignissimos."], ["created_at", "2019-01-31 04:19:19.783571"], ["updated_at", "2019-01-31 04:19:19.783571"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (187.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["message_id", 8], ["message", "Occaecati consequuntur pariatur. Cupiditate sit quo. Ut asperiores odit."], ["created_at", "2019-01-31 04:19:19.974903"], ["updated_at", "2019-01-31 04:19:19.974903"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (129.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["message_id", 6], ["message", "Necessitatibus qui maiores. Autem est non. Reiciendis occaecati ad."], ["created_at", "2019-01-31 04:19:20.107508"], ["updated_at", "2019-01-31 04:19:20.107508"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (123.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["message_id", 1], ["message", "Eos amet maxime. Architecto placeat qui. Vel sint modi."], ["created_at", "2019-01-31 04:19:20.233901"], ["updated_at", "2019-01-31 04:19:20.233901"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (170.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.2ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 6], ["message", "Illo fuga voluptatem. Odit impedit eum. Ut ea aspernatur."], ["created_at", "2019-01-31 04:19:20.407788"], ["updated_at", "2019-01-31 04:19:20.407788"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (156.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comments" ("user_id", "message_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["message_id", 9], ["message", "Libero ut occaecati. Occaecati aut reiciendis. Consectetur ipsum velit."], ["created_at", "2019-01-31 04:19:20.567963"], ["updated_at", "2019-01-31 04:19:20.567963"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (128.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 1], ["comments_id", 8], ["message", "Voluptatem et qui. Porro doloremque fugiat. Sed sed aut."], ["created_at", "2019-01-31 04:19:20.714104"], ["updated_at", "2019-01-31 04:19:20.714104"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (106.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["comments_id", 5], ["message", "Fuga aliquid nostrum. Voluptatem ullam sed. Non et omnis."], ["created_at", "2019-01-31 04:19:20.824941"], ["updated_at", "2019-01-31 04:19:20.824941"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (161.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 3], ["comments_id", 1], ["message", "Est nostrum pariatur. Ut in eum. Qui ex facere."], ["created_at", "2019-01-31 04:19:20.991079"], ["updated_at", "2019-01-31 04:19:20.991079"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (146.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.4ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 5], ["comments_id", 8], ["message", "Sit aut ipsam. Reiciendis temporibus laudantium. Aliquam asperiores natus."], ["created_at", "2019-01-31 04:19:21.142833"], ["updated_at", "2019-01-31 04:19:21.142833"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (144.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["comments_id", 3], ["message", "Nulla magni consequatur. Maxime sint molestiae. Corporis laudantium sunt."], ["created_at", "2019-01-31 04:19:21.292819"], ["updated_at", "2019-01-31 04:19:21.292819"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (131.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["comments_id", 5], ["message", "Cumque aut vel. Occaecati aut voluptas. Ipsam vitae ducimus."], ["created_at", "2019-01-31 04:19:21.427012"], ["updated_at", "2019-01-31 04:19:21.427012"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (136.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["comments_id", 7], ["message", "Rem asperiores nobis. Illo dolorum impedit. Debitis deserunt iure."], ["created_at", "2019-01-31 04:19:21.567971"], ["updated_at", "2019-01-31 04:19:21.567971"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (136.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 6], ["comments_id", 7], ["message", "Doloremque est voluptatem. Architecto dignissimos quaerat. Sit provident aut."], ["created_at", "2019-01-31 04:19:21.709189"], ["updated_at", "2019-01-31 04:19:21.709189"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (129.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 8], ["comments_id", 3], ["message", "Eius aspernatur et. Id dolore non. Omnis vero assumenda."], ["created_at", "2019-01-31 04:19:21.842472"], ["updated_at", "2019-01-31 04:19:21.842472"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (154.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCommentComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comment_comments" ("user_id", "comments_id", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 9], ["comments_id", 6], ["message", "Eos ut similique. Ut hic deleniti. Rerum ut optio."], ["created_at", "2019-01-31 04:19:22.000667"], ["updated_at", "2019-01-31 04:19:22.000667"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (137.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
